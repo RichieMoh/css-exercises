@@ -7,9 +7,29 @@ img {
   height: 100px;
 }
 
+.text {
+  text-align: center;
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  margin-bottom: 32px;;
+}
+
+.info-items {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px;
+  /*margin: 0 26px; /* you can replace this with gap in the parent */
 }
 
 /* do not edit this footer */
